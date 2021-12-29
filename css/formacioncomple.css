@@ -1,0 +1,489 @@
+/* ---- ----- ----- acompañamiento ----- ----- ----- */
+*{
+  
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-position-x: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(32, 32, 32);
+     
+   
+    
+}
+
+
+
+
+
+
+.parallaz{
+  width: 100%;
+  height: 90vh;
+  background-image: url("../Imagenes/complementaria.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:center;
+
+  
+  
+}
+
+
+.parallaz_content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8%;
+  
+}
+
+.happy{
+  color: beige;
+}
+
+.contieneacomp{
+    display: flex;
+    
+  }
+  
+  .tituloacomp{
+    text-align: center;
+    color: black;
+  }
+  
+  .acompañamiento{
+    background:  url("../Imagenes/desarrolloyprogra.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento:hover{
+    opacity: 0.7;
+  }
+  
+  .desarrollo{
+      margin-top: 150px;
+      
+      margin-left: 30px;
+
+
+      font-size: 30px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      line-height: 1.7em;
+      text-shadow: 3px 3px 3px rgb(14, 14, 14);
+  
+  }
+
+
+
+  .acompañamiento2{
+    background:  url("../Imagenes/mathematics.gif") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    
+  }
+  
+  .acompañamiento2:hover{
+    opacity: 0.7;
+  }
+  
+    
+  .math{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+  
+  .acompañamiento3{
+    background:  url("../Imagenes/sports.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    
+  }
+  
+  .acompañamiento3:hover{
+    opacity: 0.7;
+  }
+  
+    
+  .deportes{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+  .acompañamiento4{
+    background:  url("../Imagenes/photo.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento4:hover{
+    opacity: 0.7;
+  }
+  
+  
+  .diseñografico{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+  .acompañamiento5{
+    background:  url("../Imagenes/electr.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento5:hover{
+    opacity: 0.7;
+  }
+  
+  
+  .electronica{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+  .acompañamiento6{
+    background:  url("../Imagenes/emprendimiento.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento6:hover{
+    opacity: 0.7;
+  }
+  
+    
+  .emprendimiento{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+
+.acompañamiento7{
+    background:  url("../Imagenes/edition.gif") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento7:hover{
+    opacity: 0.7;
+  }
+  
+    
+  .edition{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+.acompañamiento8{
+    background:  url("../Imagenes/dance.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento8:hover{
+    opacity: 0.7;
+  }
+  
+    
+  .dance{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+
+.acompañamiento9{
+    background:  url("../Imagenes/sing.png") ;
+    height: 400px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .acompañamiento9:hover{
+    opacity: 0.7;
+  }
+  
+    
+  .musica{
+    margin-top: 150px;
+    
+    margin-left: 30px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+
+
+
+
+
+
+  .videos{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+    /*///////////////////////////////////vista tablet////////////////////////////////////////////////*/
+/*horizontal*/
+
+
+
+@media (max-width: 810px){
+  .contieneacomp{
+    display: flex;
+    
+  }
+
+  .acompañamiento{
+    display: block;
+    width: 33%;
+  }
+  .desarrollo{
+    display: block;
+  }
+  .acompañamiento2{
+    display: block;
+  }
+  .acompañamiento3{
+    display: block;
+  }
+  .acompañamiento4{
+    display: block;
+  }
+  .acompañamiento5{
+    display: block;
+  }
+  .acompañamiento6{
+    display: block;
+  }
+  .acompañamiento7{
+    display: block;
+  }
+  .acompañamiento8{
+    display: block;
+  }
+  .acompañamiento9{
+    display: block;
+  }
+
+  .parallaz_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    
+  }
+}
+
+/*///////////////////////////////////vista smartphone////////////////////////////////////////////////*/
+
+@media (max-width: 414px){
+  .contieneacomp{
+    flex-direction: column;
+   
+  }
+
+  .titulo_portada h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+  
+
+  .parallaz_content{
+    width: 100%;
+    display: block;
+  
+    padding-left: 8%;
+    
+  }
+
+  .acompañamiento{
+    display: block;
+    width: 100%;
+  }
+
+  .acompañamiento2{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento3{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento4{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento5{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento6{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento7{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento8{
+    display: block;
+    width: 100%;
+  }
+  .acompañamiento9{
+    display: block;
+    width: 100%;
+  }
+
+}
+

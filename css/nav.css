@@ -1,0 +1,248 @@
+/*-- ----- -----NAVEGADOR PRINCIPAL ----- ----- ----- */
+
+
+/* AGREGUE ESTO */
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  
+
+  .logotipo{
+    width: 70px;
+    height: 70px;
+  }
+  
+.contenedor {
+      display: flex;
+      align-items: center;
+
+      background-color: #ffffff;
+      height: 88px;
+      position: fixed;
+      width: 100%;
+      line-height: 88px;
+      z-index: 5 !important;
+      font-family: 'Mukta', sans-serif;
+    font-size: 23px;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgb(117, 117, 117);
+   
+  
+  }
+  
+  
+  
+  nav li{
+      line-height: 3rem;
+  }
+  
+  /* AGREGUE ESTO
+  
+    agregue el --li--
+    la position y el top
+  */
+  nav ul  li ul {
+    position: absolute;
+    top:40px;
+      display: none;
+      left: -20px;
+  
+  }
+  
+  nav > ul{
+      background-color: #ffffff;
+      width: 100%;
+  }
+  
+  /* AGREGUE ESTO */
+  nav li:hover > ul{
+    display: block;
+    position: absolute;
+
+  }
+  
+  
+  
+  nav a{
+      text-decoration: none;
+      color: black;
+      display: block;
+      padding: 0 1.2em;
+      transition: 0.5s;
+  }
+  
+  nav a:hover{
+      background: rgb(238, 241, 27);
+      color: rgb(0, 0, 0);
+      
+     
+  }
+  
+  .menuprincipal > li> a{
+    display: block;
+  }
+  
+  .menuprincipal > li{
+    display: inline-block;
+    position: relative;
+    margin-left:50px;
+  }
+  
+  
+  nav .submenu{
+    position: absolute;
+    background: #d40505;
+    color: black;
+  }
+  
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: black;
+  }
+  /*-- ----- ---
+  header nav a {
+    margin-left: 40px;
+      text-decoration: none;
+      margin-right: 20px;
+    font-size: 20px;
+  
+  }
+  
+  
+  
+  
+  header nav a:hover{
+    background-color: rgb(223, 17, 17);
+  
+  }
+  
+  -- */
+  header nav img{
+    margin-left: 80px;
+  }
+  
+  
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      padding: 0 40px;
+      line-height: 80px;
+    }
+  
+  
+    .iconos_redes{
+      position: absolute;
+      right: 10%;
+      top: 40%;
+    }
+   .iconos_redes i{
+     font-size: 32px;
+    
+     margin-right: 15px;
+     cursor: pointer;
+     
+   }
+  
+   @media(max-width: 810px) {
+  
+    header {
+      background-color: #ffffff;
+      height: 50px;
+      position: fixed;
+      width: 100%;
+      line-height: 88px;
+      z-index: 5 !important;
+      font-family: 'Mukta', sans-serif;
+    font-size: 23px;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgb(117, 117, 117);
+   
+  
+    }
+  
+            .contenedor {
+          padding: 0px;
+              justify-content: space-between;
+              margin: 0;
+              align-items: center;
+              flex-wrap: wrap;
+              width: 10%;
+             
+              
+            }
+            .logotipo{
+          
+              top: 0;
+              left: -140px;
+            
+            }
+  
+            .iconos_redes{
+              display: none;
+            }
+  
+          
+          
+          nav ul li a{
+            margin: 5px;
+            padding: 6px 8px;
+            
+          }
+  }
+  
+  @media(max-width: 414px) {
+    header {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      width: 90%;
+     height: 10px;
+     margin-top: -10px;
+  
+        }
+  
+        .contenedor {
+      padding: 0px;
+          justify-content: space-between;
+          margin: 0;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 5%;
+          font-size: 9px;
+        }
+        .logotipo{
+      
+          top: 0;
+          left: -140px;
+        
+        }
+  
+        .iconos_redes{
+          display: none;
+        }
+  
+      
+      
+      nav ul li a{
+        margin: 5px;
+        padding: 6px 8px;
+        
+      }
+      .logotipo{
+        visibility: hidden;
+  
+  
+        
+      
+      }
+  }
+  

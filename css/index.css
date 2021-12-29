@@ -1,0 +1,442 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-position-x: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(32, 32, 32);
+  
+}
+
+p{
+  color: black;
+}
+ 
+ 
+ /*BOTONES FLOTANTES*/
+ #btn-mas{
+    display: none;
+}
+.flotante2{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: rgb(19, 176, 224);
+    color: rgb(253, 196, 9);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: rgb(253, 196, 9);
+    color:  rgb( 2 , 73 , 97);
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    color:  rgb(253, 196, 9);
+    font-size: 24px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 24px;
+}
+
+@media(max-width: 810px) {
+  .flotante2{
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    z-index: 2;
+}
+}
+
+@media(max-width: 375px) {
+  .flotante2{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+}
+
+/* historia*/
+.historia{
+    background: linear-gradient(rgba(231, 230, 230, 0) 0%, rgba(255, 255, 255, 0) 100%), url("../Imagenes/historiablanco.png");
+  background-position-y: center;
+    height: 700px;
+    width: 100%;
+  margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    color: rgb(255, 255, 255);
+    
+    text-align: justify;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 80px;
+  
+  }
+
+  .historia h2 {
+    color: rgb(0, 0, 0);
+
+   
+  }
+  
+  .descripcion{
+    margin-top: 5px;
+    width: 80%;
+  
+    font-size: 25px;
+  
+   padding-right: 180px;
+  padding-top: 70px;
+  padding-left: 200px;
+color: rgb(0, 0, 0);
+
+  }
+  
+  
+  
+  @media(max-width: 810px) {
+  
+    .historia {
+      background: linear-gradient(rgba(231, 230, 230, 0) 0%, rgba(255, 255, 255, 0) 100%), url("../Imagenes/historiablanco.png");
+      background-position-y: center;
+        height: 900px;
+        width: 100%;
+      margin-top: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        color: rgb(255, 255, 255);
+
+        display: flex;
+        flex-direction: column;
+ 
+       padding-top: 80px;
+  
+    }
+
+  .descripcion{
+    margin-top: 6px;
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
+   padding-right: 100px;
+  padding-top: 50px;
+  padding-left: 100px;
+  
+  
+  }
+  
+  
+  
+  
+  }
+  
+  @media(max-width: 414px) {
+    .historia {
+      background: linear-gradient(rgba(231, 230, 230, 0) 0%, rgba(255, 255, 255, 0) 100%), url("../Imagenes/historiahabano.png");
+      background-position-y: center;
+        height: 1200px;
+        width: 100%;
+      margin-top: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        color: rgb(255, 255, 255);
+
+        display: flex;
+        flex-direction: column;
+ 
+       padding-top: 80px;
+  
+    }
+
+  .descripcion{
+    margin-top: 6px;
+    width: 90%;
+    font-size: 16px;
+    text-align: justify;
+   padding-right: 60px;
+  padding-top: 40px;
+  padding-left: 60px;
+  
+  
+  }
+  }
+  
+/* Carousel principal y el de  mision, vision*/
+
+
+
+.carousel-inner {
+  height: 400px;
+  left: 0%;
+  overflow: hidden;
+  
+  
+  
+}
+
+.carousel-inner1 {
+  height: 1000px;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+
+.carousel-caption1 {
+  width: 35%;
+  position: absolute; 
+  right: 12%;
+  top: 30%; /* Cambiar bottom por top y los píxeles que necesites */
+  left: 10%;
+  z-index: 1; 
+  text-align: left;
+
+  
+}
+
+.carousel-caption1 h2{
+
+font-size: 40px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+line-height: 1.7em;
+text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+
+
+}
+
+
+.carousel-caption {
+position: absolute; 
+right: 15%;
+top: 80px; /* Cambiar bottom por top y los píxeles que necesites */
+left: 11%;
+z-index: 1;
+padding-top: 2px;
+padding-bottom: 20px;
+text-align: center;
+
+}
+
+
+.carousel-caption h3{
+  margin-top: 2px;
+}
+
+
+
+.carousel-vision-mision{
+  width: 100%;
+
+}
+
+
+.carousel.inner> .item > img{
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* carousel vision mision */
+@media(max-width: 810px) {
+
+  .carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 80px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 11%;
+    z-index: 1;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 400px;
+    display: block;
+    }
+
+
+    .carousel-caption1 h2{
+
+      font-size: 40px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      line-height: 1.7em;
+      text-shadow: 3px 3px 3px rgb(14, 14, 14);
+      
+      
+      
+      }
+  
+  
+}
+
+@media(max-width: 375px) {
+  .carousel-caption {
+    position: absolute; 
+    right: 16%;
+    top: 50px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 11%;
+    z-index: 1;
+    padding-top: -40px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 400px;
+    display: block;
+    }
+  
+
+    .carousel-caption1 h2{
+
+      font-size: 35px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      line-height: 1.5em;
+      text-shadow: 3px 3px 3px rgb(14, 14, 14);
+      
+      
+      
+      }
+}
+
+
+/* quienes somos */
+
+.containerinformacion{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+
+.quienessomos{
+  width: 93%;
+position: relative;
+padding: 10px 20px 0px 30px;
+background: linear-gradient(rgba(161, 161, 161, 0.123) 0%, rgba(0, 0, 0, 0.151) 100%), url("../Imagenes/sofia-hernandez-pbUtosQ1kkU-unsplash.jpg");
+height: 580px;
+background-position-y: 20%;
+background-position-x:top;
+}
+
+.quienessomos h3{
+font-size: 30px;
+padding: 15px 30px;
+position: absolute;
+text-shadow: 0px 4px 8px 0px rgb(240, 236, 236);
+margin-left: 250px;
+margin-top: 30px;
+
+}
+
+.quienessomos p{
+margin-top: 100px;
+padding-left: 30px;
+padding-right: 30px;
+justify-content: center;
+width: 100%;
+font-size: 20px;
+}
+
+
+@media(max-width: 810px) {
+
+  .quienessomos {
+width:100%;
+height: 630px;
+
+
+  }
+
+
+  .quienessomos h3{
+    font-size: 30px;
+    padding: 15px 30px;
+    position: absolute;
+    text-shadow: 0px 4px 8px 0px rgb(240, 236, 236);
+    margin-left: 90px;
+    margin-top: 30px;
+    
+    }
+
+
+}
+
+@media(max-width: 375px) {
+}
+
+
+/*formacion complementaria*/
+
+.tituloformacion{
+  text-align: center;
+}
+
+
+  /* ubicacion*/
+
+  .ubicaciontitulo{
+    text-align: center;
+color: black;
+   
+  }
+  
+
+  .maps{
+align-items: center;
+  }
+
+
+/*calendario*/
+
+.calendario{
+ 
+  text-decoration: none;
+  color: black;
+}
+
+.contenedorcalendario{
+  text-align: center;
+}
+
+.pdf{
+  color: rgb(214, 2, 2);
+}

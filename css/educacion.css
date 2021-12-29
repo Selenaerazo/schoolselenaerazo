@@ -1,0 +1,353 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-position-x: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(26, 26, 26);
+
+}
+
+/*educacion*/
+
+.parallas{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../Imagenes/gradosdisponibles1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+ 
+    
+    
+  }
+  
+  .gorrito{
+    color: beige;
+  }
+  
+
+  
+  .parallas_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    
+  }
+
+
+
+.masinformacion{
+    background: linear-gradient(rgb(6, 163, 190) 50%, rgb(2, 165, 187) 100%);
+  
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: bottom ;
+    color: rgb(8, 8, 8);
+   
+    text-align: center;
+    padding-top: 100px;
+  
+  }
+  
+  
+  
+  
+  .tituloeducacion{
+  
+   margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+   justify-content: center;
+    font-size: 35px;
+    text-align: center;
+  color: #000000;
+  }
+
+.services_title h2{
+    text-align: center;
+    margin-bottom: 50px;
+   color: #030303;
+}
+.service_container{
+    width: 70%;
+    display: flex;
+    padding: 0px 0px 0px 0px ;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-left: 300px;
+    
+    
+   
+}
+.service_container_responsive{
+    display: none;
+}
+
+.img_service{
+    width: 50%;
+    align-items: center;
+ 
+    
+}
+
+.img_service img{
+    width: 700px;
+    height: 600px;
+ 
+}
+.text_service{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.text_service h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#000000;
+    
+}
+.text_service p{
+    width: 80%;
+    font-size: 20px;
+    color:#000000;
+    text-align: justify;
+}
+
+.btn_service{
+    width: 200px;
+    height: 50px;
+    background-color: #15c8d4;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.text_service button:hover{
+    background-color: #2D2B2A;
+    color: white;
+    transition: .5s;
+
+}
+
+::selection {
+    background: #0275b8;
+    color: #fffbfb;
+}
+
+/*///////////////////////////////////vista tablet////////////////////////////////////////////////*/
+/*horizontal*/
+
+
+
+@media (max-width: 810px){
+    .tituloeducacion{
+  
+        margin-top: 20px;
+         margin-left: 10px;
+         margin-right: 10px;
+         width: 100%;
+        justify-content: center;
+         font-size: 35px;
+         text-align: center;
+       color: #000000;
+       }
+
+       .fondoamarillo{
+           margin-top: 100px;
+       }
+     
+     .services_title h2{
+         text-align: center;
+         margin-bottom: 50px;
+        color: #030303;
+     }
+     .service_container{
+         width: 60%;
+         display: flex;
+         padding: 0px 0px 0px 0px ;
+         margin-bottom: 50px;
+      
+         margin-left: 170px;
+         
+         
+        
+     }
+     .service_container_responsive{
+         display: none;
+     }
+     
+     .img_service{
+         width: 40%;
+         align-items: center;
+      
+         
+     }
+     
+     .img_service img{
+         width: 400px;
+         height: 300px;
+      
+     }
+     .text_service{
+         width: 60%;
+         display: flex;
+         flex-direction: column;
+      
+         
+     }
+     
+     .text_service h2{
+         font-size: 30px;
+         text-align: center;
+         margin-bottom: 30px;
+         color:#000000;
+         
+     }
+     .text_service p{
+         width: 90%;
+         font-size: 20px;
+         color:#000000;
+         text-align: justify;
+     }
+     
+     .btn_service{
+         width: 200px;
+         height: 50px;
+         background-color: #15c8d4;
+         border-radius: 5px;
+         border: none;
+         color: #000000;
+         font-size: 16px;
+         letter-spacing: 0.2em;
+         text-transform: uppercase;
+         cursor: pointer;
+         margin-top: 60px;
+         font-weight: bold;
+     }
+     .text_service button:hover{
+         background-color: #2D2B2A;
+         color: white;
+         transition: .5s;
+     
+     }
+     
+     ::selection {
+         background: #0275b8;
+         color: #fffbfb;
+     
+    }
+}
+
+/*///////////////////////////////////vista smartphone////////////////////////////////////////////////*/
+
+@media (max-width: 414px){
+    .tituloeducacion{
+  
+        margin-top: 10px;
+         margin-left: 10px;
+         margin-right: 10px;
+         width: 100%;
+        justify-content: center;
+         font-size: 35px;
+         text-align: center;
+       color: #000000;
+       }
+     
+     .services_title h2{
+         text-align: center;
+         margin-bottom: 50px;
+        color: #030303;
+     }
+     .service_container{
+         width: 50%;
+         display: flex;
+         padding: 0px 0px 0px 0px ;
+         margin-bottom: 50px;
+         align-items: center;
+         margin-left: 100px;
+         
+         
+        
+     }
+     .service_container_responsive{
+         display: none;
+     }
+     
+     .img_service{
+       visibility: hidden;
+      
+         
+     }
+     
+     .img_service img{
+         width: 700px;
+         height: 600px;
+      
+     }
+     .text_service{
+         width: 90%;
+         display: flex;
+         flex-direction: column;
+         align-items:center;
+         
+     }
+     
+     .text_service h2{
+         font-size: 30px;
+         text-align: center;
+         margin-bottom: 30px;
+         color:#000000;
+         
+     }
+     .text_service p{
+         width: 90%;
+         font-size: 16px;
+         color:#000000;
+         text-align: justify;
+     }
+     
+     .btn_service{
+         width: 200px;
+         height: 50px;
+         background-color: #15c8d4;
+         border-radius: 5px;
+         border: none;
+         color: #000000;
+         font-size: 16px;
+         letter-spacing: 0.2em;
+         text-transform: uppercase;
+         cursor: pointer;
+         margin-top: 60px;
+         font-weight: bold;
+     }
+     .text_service button:hover{
+         background-color: #2D2B2A;
+         color: white;
+         transition: .5s;
+     
+     }
+     
+     ::selection {
+         background: #0275b8;
+         color: #fffbfb;
+     }
+}
+

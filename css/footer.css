@@ -1,0 +1,216 @@
+footer{
+    width: 100%;
+    background: linear-gradient(rgb(255, 255, 255) rgb(214, 214, 212)2) ;
+    background-position-x: right;
+    color: black;   
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    
+}
+
+.imagenfooter{
+    width:300px;
+    height:300px;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+  
+}
+
+
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.rowx{
+    margin-top: 20px;
+    display: flex;
+}
+
+.rows{
+    margin-top: 20px;
+    display: flex;
+}
+
+.rows img{
+    width: 50px;
+    height: 50px;
+}
+
+.rowx img{
+    width: 70px;
+    height: 70px;
+}
+
+.rows label{
+    margin-top: 10px;
+    margin-left: 20px;
+   
+}
+
+.rowx label{
+    margin-top: 10px;
+    margin-left: 20px;
+   
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+   
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+
+
+.copyright a{
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    
+}
+
+
+
+@media(max-width: 810px) {
+
+
+    .colum1{
+        max-width: 300px;
+      
+    }
+  
+  
+.colum2{
+    max-width: 190px;
+    margin-left: -30px;
+    
+}
+
+.imagenfooter{
+    width:150px;
+    height:150px;
+}
+
+.footer{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+ 
+
+}
+
+
+
+
+
+  
+  }
+  
+  @media(max-width: 414px) {
+.rowx{
+    visibility: hidden;
+}
+
+.rows{
+    margin-left: -190px;
+}
+
+.colum1{
+    max-width: 200px;
+}
+
+
+.imagenfooter{
+    width:130px;
+    height:130px;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.colum2{
+margin-top: -10px;
+margin-left: 10px;
+    
+
+}
+
+.information a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.copyright a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.copyright{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer{
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+ 
+
+}
+  }
+  

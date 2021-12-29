@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.parallax{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../Imagenes/porter-raab-gnj9vj--FRY-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    
+    
+}
+
+.parallax_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    
+}
+
+.titulo_portada{ 
+    width: 50%; 
+    z-index: 2;
+    margin-bottom: 10px;
+   
+   
+    
+   
+}
+.titulo_portada h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+
+}
+
+.subtitulo_portada{
+    font-size: 22px;
+
+    z-index: 1;
+    font-weight: 300px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(243, 242, 242);
+}
+.btn_portada{
+    z-index: 1;
+    
+}
+
+
+
+
+.container_service h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 810px) {
+    .titulo_portada h2{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        line-height: 1.7em;
+        text-shadow: 3px 3px 3px rgb(14, 14, 14);
+    
+    }
+}
+
+@media(max-width: 414px) {
+    .titulo_portada h2{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        line-height: 1.7em;
+        text-shadow: 3px 3px 3px rgb(14, 14, 14);
+    
+    }
+}
